@@ -1,0 +1,177 @@
+
+
+.calc_wrapper {
+	display: flex;
+	align-items: flex-start;
+    flex-direction: row;
+    box-shadow: 0 6px 16px 0 rgb(31 36 38 / 15%);
+}
+.calc_wapper_active {
+    flex: 1;
+} 
+.calc_wapper_active h3 {
+	color:black;
+	border-top: 0.5rem solid #5F0F40;
+    border-bottom: 0.25rem solid #e8eced;
+    background: #f5f7f8;
+    padding: 0.75rem 30px;
+}
+.calc_wapper_active p {
+	margin:8px 2px;
+	font-weight:bold;
+}
+
+.calc_wapper_datorii {
+    flex: 1;
+} 
+.calc_wapper_datorii h3 {
+	color:black;
+	border-top: 0.5rem solid #5F0F40;
+    border-bottom: 0.25rem solid #e8eced;
+    background: #f5f7f8;
+    padding: 0.75rem 30px; 
+}
+.calc_wapper_datorii p {
+	margin:8px 2px;	
+	font-weight:bold;
+}
+
+.input_holder {
+	margin: 1px;
+	padding: 0.75rem 30px;
+}
+
+
+
+.select {
+    width: 1rem;
+    height: 1rem;  
+    cursor: pointer;
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+ 
+}
+
+input[type='radio']:after {
+	width: 25px;
+	height: 25px;
+	border-radius: 15px;
+	top: -2px;
+	left: -1px;
+	position: relative;
+	background-color: white;
+	content: '';
+	display: inline-block;
+	visibility: visible;
+	border: 3px solid #FB8B24;
+}
+
+input[type='radio']:checked:after {
+	width: 25px;
+	height: 25px;
+	border-radius: 15px;
+	top: -2px;
+	left: -1px;
+	position: relative;
+	background-color: #5F0F40;
+	content: '';
+	display: inline-block;
+	visibility: visible;
+	border: 2px solid #5F0F40;
+}
+
+
+
+.input_css {
+	border: 1px solid #b6bec2;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    color: #1f2426;
+    font-size: 1rem;
+    display: inline-block;
+    width: 70%;
+    height: 2.5rem;
+	
+}
+
+.clear {
+      clear: both;
+    }
+
+.calculate_pdr_btn {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background-color:#5F0F40;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:white !important;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+	margin: 30px;
+}
+.calculate_pdr_btn a {
+	color:white;
+}
+.calculate_pdr_btn:hover {
+	background-color:#0F4C5C;
+	color:white;
+}
+.calculate_pdr_btn:active {
+	position:relative;
+	top:1px;
+	color:white;
+}
+
+
+.result {
+	text-align: center;
+	margin: 40px;
+
+}
+.result p {
+	color:#0F4C5C;
+	font-size:24px;
+	font-weight:bold;
+}
+
+
+.rezultat_final {
+	border-top: 0.5rem solid #5F0F40;
+    border-bottom: 0.25rem solid #e8eced;
+    background: #f5f7f8;
+    padding: 0px 30px; 
+}
+
+.rezultat_final h2 {
+	color:#5F0F40;
+	font-size:54px;
+	font-weight:bold;
+}
+
+.rezultat_profil {
+	margin-top: 2rem;
+	border-top: 0.5rem solid #0F4C5C;
+    border-bottom: 0.25rem solid #e8eced;
+    background: #f5f7f8;
+    padding: 0.75rem 30px; 
+}
+
+.rezultat_profil h2 {
+	color:#0F4C5C;
+	font-size:44px;
+	font-weight:bold;
+}
+
+.rezultat_profil p {
+	text-align: justify;
+}
+
+
+
